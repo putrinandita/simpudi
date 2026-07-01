@@ -1,0 +1,6 @@
+{
+  "name": "Sistem Manajemen Pupuk Desa",
+  "description": "Sistem manajemen jatah pupuk subsidi warga desa dan ketersediaan stok gudang utama dengan sinkronisasi data transaksi otomatis dan tiga lapis validasi ketat.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
