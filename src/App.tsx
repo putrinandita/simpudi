@@ -1901,7 +1901,7 @@ export default function App() {
       </main>
 
       <footer className="bg-white border-t border-slate-150 py-8 text-center text-xs text-slate-400 font-medium">
-        <p>&copy; 2026 SIMPUD Desa. Seluruh hak cipta dilindungi. Purwarupa Interaktif (React & TS) & Distribusi File PHP Native / MySQL.</p>
+        <p>&copy; 2026 SIMPUDI Desa. Seluruh hak cipta dilindungi. Purwarupa Interaktif (React & TS) & Distribusi File PHP Native / MySQL.</p>
       </footer>
 
       {/* --- POPUP DIALOGS / CUSTOM MODALS (Avoids window.confirm blocked by iframes) --- */}

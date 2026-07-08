@@ -40,17 +40,29 @@ if ($search !== '') {
 <html lang="id">
 <head>
     <meta charset="UTF-8">
-    <title>Dasbor SIMPUD - Sistem Manajemen Pupuk Desa</title>
+    <title>Dasbor SIMPUDI - Sistem Manajemen Pupuk Desa</title>
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body class="bg-slate-50 min-h-screen text-slate-800">
     <header class="bg-white border-b border-slate-100 sticky top-0 z-50 shadow-sm">
-        <div class="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
-            <h1 class="text-xl font-bold">SIMPUD DESA</h1>
-            <a href="logout.php" onclick="return confirm('Keluar?')" class="bg-red-50 text-red-600 font-semibold px-4 py-2 rounded-xl text-sm">Keluar 🚪</a>
+    <div class="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
+        
+        <div class="flex items-center space-x-3">
+            <!-- Ini adalah logo emoji padinya -->
+            <span class="text-3xl">🌾</span>
+            
+            <div class="flex flex-col">
+                <h1 class="text-xl font-bold text-slate-900">SIMPUDI DESA</h1>
+                <h2 class="text-xs font-semibold text-slate-500 tracking-wider">Sistem Informasi Manajemen Pupuk Subsidi Desa</h2>
+            </div>
         </div>
-    </header>
 
+        <a href="logout.php" onclick="return confirm('Keluar?')" class="bg-red-50 text-red-600 font-semibold px-4 py-2 rounded-xl text-sm hover:bg-red-100 transition">
+            Keluar 🚪
+        </a>
+        
+    </div>
+</header>
     <main class="max-w-7xl mx-auto px-6 py-8">
         <nav class="flex flex-wrap gap-3 mb-8">
             <a href="dashboard.php" class="bg-green-600 text-white font-semibold px-5 py-3 rounded-xl text-sm">🏠 Dasbor</a>
