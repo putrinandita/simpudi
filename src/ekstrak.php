@@ -4,7 +4,7 @@
 
 $folder_tujuan = __DIR__ . '/';
 
-// Mengubah setelan database ke 'simpud' di dalam string koneksi.php secara otomatis
+// Mengubah setelan database ke 'simpudi' di dalam string koneksi.php secara otomatis
 $koneksi_code = '<?php
 date_default_timezone_set(\'Asia/Makassar\');
 $host = "localhost";

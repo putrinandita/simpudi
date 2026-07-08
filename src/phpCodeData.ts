@@ -219,8 +219,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     <div class="bg-white p-8 rounded-2xl shadow-lg w-full max-w-md border border-slate-100">
         <div class="text-center mb-8">
             <div class="bg-green-100 text-green-700 w-16 h-16 rounded-2xl flex items-center justify-center mx-auto mb-4 text-2xl font-bold">🌾</div>
-            <h1 class="text-2xl font-bold text-slate-800 tracking-tight">SIMPUD DESA</h1>
-            <p class="text-sm text-slate-500 mt-1">Sistem Manajemen Pupuk Subsidi Desa</p>
+            <h1 class="text-2xl font-bold text-slate-800 tracking-tight">SIMPUDI DESA</h1>
+            <p class="text-sm text-slate-500 mt-1">Sistem Informasi Manajemen Pupuk Subsidi Desa</p>
         </div>
 
         <?php if (!empty($error)): ?>
@@ -397,7 +397,7 @@ $transaksi_terbaru = $stmtTxLog->fetchAll();
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dasbor SIMPUD - Sistem Manajemen Pupuk Desa</title>
+    <title>Dasbor SIMPUDI - Sistem Informasi Manajemen Pupuk Desa</title>
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body class="bg-slate-50 min-h-screen font-sans text-slate-800">
@@ -408,8 +408,8 @@ $transaksi_terbaru = $stmtTxLog->fetchAll();
             <div class="flex items-center gap-3">
                 <span class="text-3xl">🌾</span>
                 <div>
-                    <h1 class="text-xl font-bold tracking-tight text-slate-900">SIMPUD DESA</h1>
-                    <p class="text-xs text-slate-400 font-medium">Sistem Manajemen Pupuk Subsidi Desa</p>
+                    <h1 class="text-xl font-bold tracking-tight text-slate-900">SIMPUDI DESA</h1>
+                    <p class="text-xs text-slate-400 font-medium">Sistem Informasi Manajemen Pupuk Subsidi Desa</p>
                 </div>
             </div>
             <div class="flex items-center gap-4">
@@ -602,7 +602,7 @@ $transaksi_terbaru = $stmtTxLog->fetchAll();
     </main>
 
     <footer class="bg-white border-t border-slate-100 mt-16 py-8 text-center text-xs text-slate-400">
-        <p>&copy; <?php echo date('Y'); ?> SIMPUD Desa. Dikembangkan dengan PHP PDO Native & Tailwind CSS.</p>
+        <p>&copy; <?php echo date('Y'); ?> SIMPUDI Desa. Dikembangkan dengan PHP PDO Native & Tailwind CSS.</p>
     </footer>
 
     <!-- Script Jam Dinamis Real-Time Terintegrasi -->
@@ -771,7 +771,7 @@ $all_warga = $stmtWarga->fetchAll();
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Kelola Data Warga - SIMPUD Desa</title>
+    <title>Kelola Data Warga - SIMPUDI Desa</title>
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body class="bg-slate-50 min-h-screen text-slate-800">
@@ -782,8 +782,8 @@ $all_warga = $stmtWarga->fetchAll();
             <div class="flex items-center gap-3">
                 <span class="text-3xl">🌾</span>
                 <div>
-                    <h1 class="text-xl font-bold text-slate-900">SIMPUD DESA</h1>
-                    <p class="text-xs text-slate-400 font-medium">Sistem Manajemen Pupuk Subsidi Desa</p>
+                    <h1 class="text-xl font-bold text-slate-900">SIMPUDI DESA</h1>
+                    <p class="text-xs text-slate-400 font-medium">Sistem Informasi Manajemen Pupuk Subsidi Desa</p>
                 </div>
             </div>
             <a href="dashboard.php" class="bg-slate-100 hover:bg-slate-200 text-slate-700 text-sm font-semibold px-4 py-2 rounded-xl transition">
@@ -922,7 +922,7 @@ $all_warga = $stmtWarga->fetchAll();
     </main>
 
     <footer class="bg-white border-t border-slate-100 mt-16 py-8 text-center text-xs text-slate-400">
-        <p>&copy; <?php echo date('Y'); ?> SIMPUD Desa. Hak Cipta Dilindungi.</p>
+        <p>&copy; <?php echo date('Y'); ?> SIMPUDI Desa. Hak Cipta Dilindungi.</p>
     </footer>
 
 </body>
@@ -1025,8 +1025,8 @@ $log_masuk = $stmtLog->fetchAll();
             <div class="flex items-center gap-3">
                 <span class="text-3xl">🌾</span>
                 <div>
-                    <h1 class="text-xl font-bold text-slate-900">SIMPUD DESA</h1>
-                    <p class="text-xs text-slate-400 font-medium">Sistem Manajemen Pupuk Subsidi Desa</p>
+                    <h1 class="text-xl font-bold text-slate-900">SIMPUDI DESA</h1>
+                    <p class="text-xs text-slate-400 font-medium">Sistem Informasi Manajemen Pupuk Subsidi Desa</p>
                 </div>
             </div>
             <a href="dashboard.php" class="bg-slate-100 hover:bg-slate-200 text-slate-700 text-sm font-semibold px-4 py-2 rounded-xl transition">
@@ -1270,7 +1270,7 @@ $transaksi_riwayat = $stmtTxHistory->fetchAll();
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Transaksi Pengambilan - SIMPUD Desa</title>
+    <title>Transaksi Pengambilan - SIMPUDI Desa</title>
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body class="bg-slate-50 min-h-screen text-slate-800">
@@ -1280,8 +1280,8 @@ $transaksi_riwayat = $stmtTxHistory->fetchAll();
             <div class="flex items-center gap-3">
                 <span class="text-3xl">🌾</span>
                 <div>
-                    <h1 class="text-xl font-bold text-slate-900">SIMPUD DESA</h1>
-                    <p class="text-xs text-slate-400 font-medium">Sistem Manajemen Pupuk Subsidi Desa</p>
+                    <h1 class="text-xl font-bold text-slate-900">SIMPUDI DESA</h1>
+                    <p class="text-xs text-slate-400 font-medium">Sistem Informasi Manajemen Pupuk Subsidi Desa</p>
                 </div>
             </div>
             <a href="dashboard.php" class="bg-slate-100 hover:bg-slate-200 text-slate-700 text-sm font-semibold px-4 py-2 rounded-xl transition">
@@ -1505,7 +1505,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['submit_pengaturan'])) 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pengaturan Akun - SIMPUD Desa</title>
+    <title>Pengaturan Akun - SIMPUDI Desa</title>
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body class="bg-slate-50 min-h-screen text-slate-800">
@@ -1516,8 +1516,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['submit_pengaturan'])) 
             <div class="flex items-center gap-3">
                 <span class="text-3xl">🌾</span>
                 <div>
-                    <h1 class="text-xl font-bold tracking-tight text-slate-900">SIMPUD DESA</h1>
-                    <p class="text-xs text-slate-400 font-medium">Sistem Manajemen Pupuk Subsidi Desa</p>
+                    <h1 class="text-xl font-bold tracking-tight text-slate-900">SIMPUDI DESA</h1>
+                    <p class="text-xs text-slate-400 font-medium">Sistem Informasi Manajemen Pupuk Subsidi Desa</p>
                 </div>
             </div>
             <div class="flex items-center gap-4">
@@ -1630,7 +1630,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['submit_pengaturan'])) 
     </main>
 
     <footer class="bg-white border-t border-slate-100 mt-16 py-8 text-center text-xs text-slate-400">
-        <p>&copy; <?php echo date('Y'); ?> SIMPUD Desa. Hak Cipta Dilindungi.</p>
+        <p>&copy; <?php echo date('Y'); ?> SIMPUDI Desa. Hak Cipta Dilindungi.</p>
     </footer>
 
 </body>
@@ -1866,7 +1866,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['submit_edit_pm'])) {
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Edit Pengadaan Pupuk - SIMPUD Desa</title>
+    <title>Edit Pengadaan Pupuk - SIMPUDI Desa</title>
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body class="bg-slate-50 min-h-screen text-slate-800 flex flex-col justify-between">
@@ -1875,7 +1875,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['submit_edit_pm'])) {
         <div class="max-w-xl mx-auto px-6 py-4 flex justify-between items-center">
             <div class="flex items-center gap-2">
                 <span class="text-2xl">🌾</span>
-                <h1 class="text-lg font-bold text-slate-900">SIMPUD DESA</h1>
+                <h1 class="text-lg font-bold text-slate-900">SIMPUDI DESA</h1>
             </div>
             <a href="pupuk_masuk.php" class="bg-slate-100 hover:bg-slate-200 text-slate-700 text-xs font-semibold px-3 py-1.5 rounded-xl transition">
                 Kembali
@@ -1932,7 +1932,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['submit_edit_pm'])) {
     </main>
 
     <footer class="bg-white border-t border-slate-100 py-6 text-center text-xs text-slate-400">
-        <p>&copy; 2026 SIMPUD Desa. Hak Cipta Dilindungi.</p>
+        <p>&copy; 2026 SIMPUDI Desa. Hak Cipta Dilindungi.</p>
     </footer>
 
 </body>
@@ -2174,7 +2174,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['submit_edit_tx'])) {
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Edit Transaksi Penyaluran - SIMPUD Desa</title>
+    <title>Edit Transaksi Penyaluran - SIMPUDI Desa</title>
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body class="bg-slate-50 min-h-screen text-slate-800 flex flex-col justify-between">
@@ -2183,7 +2183,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['submit_edit_tx'])) {
         <div class="max-w-xl mx-auto px-6 py-4 flex justify-between items-center">
             <div class="flex items-center gap-2">
                 <span class="text-2xl">🌾</span>
-                <h1 class="text-lg font-bold text-slate-900">SIMPUD DESA</h1>
+                <h1 class="text-lg font-bold text-slate-900">SIMPUDI DESA</h1>
             </div>
             <a href="transaksi.php" class="bg-slate-100 hover:bg-slate-200 text-slate-700 text-xs font-semibold px-3 py-1.5 rounded-xl transition">
                 Kembali
@@ -2239,7 +2239,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['submit_edit_tx'])) {
     </main>
 
     <footer class="bg-white border-t border-slate-100 py-6 text-center text-xs text-slate-400">
-        <p>&copy; 2026 SIMPUD Desa. Hak Cipta Dilindungi.</p>
+        <p>&copy; 2026 SIMPUDI Desa. Hak Cipta Dilindungi.</p>
     </footer>
 
 </body>

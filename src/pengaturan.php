@@ -78,7 +78,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['submit_pengaturan'])) 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pengaturan Akun - SIMPUD Desa</title>
+    <title>Pengaturan Akun - SIMPUDI Desa</title>
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body class="bg-slate-50 min-h-screen text-slate-800">
@@ -87,8 +87,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['submit_pengaturan'])) 
             <div class="flex items-center gap-3">
                 <span class="text-3xl">🌾</span>
                 <div>
-                    <h1 class="text-xl font-bold text-slate-900">SIMPUD DESA</h1>
-                    <p class="text-xs text-slate-400 font-medium">Sistem Manajemen Pupuk Subsidi Desa</p>
+                    <h1 class="text-xl font-bold text-slate-900">SIMPUDI DESA</h1>
+                    <p class="text-xs text-slate-400 font-medium">Sistem Informasi Manajemen Pupuk Subsidi Desa</p>
                 </div>
             </div>
             <a href="dashboard.php" class="bg-slate-100 hover:bg-slate-200 text-slate-700 font-semibold px-4 py-2 rounded-xl text-sm">Kembali ke Dasbor 🏠</a>

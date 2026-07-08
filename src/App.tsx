@@ -51,7 +51,7 @@ const DEFAULT_TRANSAKSI: Transaksi[] = [
 export default function App() {
   // --- States ---
   const [session, setSession] = useState<AdminSession>(() => {
-    const saved = localStorage.getItem('simpud_session');
+    const saved = localStorage.getItem('simpudi_session');
     if (saved) {
       try {
         const parsed = JSON.parse(saved);
@@ -68,26 +68,26 @@ export default function App() {
   });
 
   const [adminPassword, setAdminPassword] = useState<string>(() => {
-    return localStorage.getItem('simpud_admin_password') || 'admin123';
+    return localStorage.getItem('simpudi_admin_password') || 'admin123';
   });
 
   const [wargaList, setWargaList] = useState<Warga[]>(() => {
-    const saved = localStorage.getItem('simpud_warga');
+    const saved = localStorage.getItem('simpudi_warga');
     return saved ? JSON.parse(saved) : DEFAULT_WARGA;
   });
 
   const [stokGudang, setStokGudang] = useState<number>(() => {
-    const saved = localStorage.getItem('simpud_stok');
+    const saved = localStorage.getItem('simpudi_stok');
     return saved ? Number(saved) : 470; // 500 initial - 30 transaction
   });
 
   const [pupukMasukList, setPupukMasukList] = useState<PupukMasuk[]>(() => {
-    const saved = localStorage.getItem('simpud_pupuk_masuk');
+    const saved = localStorage.getItem('simpudi_pupuk_masuk');
     return saved ? JSON.parse(saved) : DEFAULT_PUPUK_MASUK;
   });
 
   const [transaksiList, setTransaksiList] = useState<Transaksi[]>(() => {
-    const saved = localStorage.getItem('simpud_transaksi');
+    const saved = localStorage.getItem('simpudi_transaksi');
     return saved ? JSON.parse(saved) : DEFAULT_TRANSAKSI;
   });
 
@@ -177,23 +177,23 @@ export default function App() {
 
   // --- Save states to localStorage ---
   useEffect(() => {
-    localStorage.setItem('simpud_session', JSON.stringify(session));
+    localStorage.setItem('simpudi_session', JSON.stringify(session));
   }, [session]);
 
   useEffect(() => {
-    localStorage.setItem('simpud_warga', JSON.stringify(wargaList));
+    localStorage.setItem('simpudi_warga', JSON.stringify(wargaList));
   }, [wargaList]);
 
   useEffect(() => {
-    localStorage.setItem('simpud_stok', stokGudang.toString());
+    localStorage.setItem('simpudi_stok', stokGudang.toString());
   }, [stokGudang]);
 
   useEffect(() => {
-    localStorage.setItem('simpud_pupuk_masuk', JSON.stringify(pupukMasukList));
+    localStorage.setItem('simpudi_pupuk_masuk', JSON.stringify(pupukMasukList));
   }, [pupukMasukList]);
 
   useEffect(() => {
-    localStorage.setItem('simpud_transaksi', JSON.stringify(transaksiList));
+    localStorage.setItem('simpudi_transaksi', JSON.stringify(transaksiList));
   }, [transaksiList]);
 
   // Toast auto-clear
@@ -269,11 +269,11 @@ export default function App() {
       adminNama: settingsNama.trim()
     };
     setSession(newSession);
-    localStorage.setItem('simpud_session', JSON.stringify(newSession));
+    localStorage.setItem('simpudi_session', JSON.stringify(newSession));
 
     if (settingsPassword) {
       setAdminPassword(settingsPassword);
-      localStorage.setItem('simpud_admin_password', settingsPassword);
+      localStorage.setItem('simpudi_admin_password', settingsPassword);
     }
 
     showToast('success', 'Kredensial akun administrator berhasil diperbarui!');
@@ -754,8 +754,8 @@ export default function App() {
         >
           <div className="text-center mb-8">
             <div className="bg-green-100 text-green-700 w-16 h-16 rounded-2xl flex items-center justify-center mx-auto mb-4 text-2xl font-bold">🌾</div>
-            <h1 className="text-2xl font-bold text-slate-900 tracking-tight" id="login_title">SIMPUD DESA</h1>
-            <p className="text-sm text-slate-500 mt-1">Sistem Manajemen Pupuk Subsidi Desa</p>
+            <h1 className="text-2xl font-bold text-slate-900 tracking-tight" id="login_title">SIMPUDI DESA</h1>
+            <p className="text-sm text-slate-500 mt-1">Sistem InformasiManajemen Pupuk Subsidi Desa</p>
           </div>
 
           {loginError && (
@@ -848,8 +848,8 @@ export default function App() {
           <div className="flex items-center gap-3">
             <div className="bg-green-600 text-white p-2.5 rounded-xl text-xl shadow-md">🌾</div>
             <div>
-              <h1 className="text-xl font-black tracking-tight text-slate-900">SIMPUD DESA</h1>
-              <p className="text-xs text-slate-400 font-bold tracking-wider uppercase">Sistem Manajemen Pupuk Subsidi</p>
+              <h1 className="text-xl font-black tracking-tight text-slate-900">SIMPUDI DESA</h1>
+              <p className="text-xs text-slate-400 font-bold tracking-wider uppercase">Sistem InformasiManajemen Pupuk Subsidi</p>
             </div>
           </div>
           

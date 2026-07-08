@@ -3,7 +3,7 @@ date_default_timezone_set('Asia/Makassar');
 $host = "localhost";
 $username = "root";
 $password = "";
-$database = "simpud";
+$database = "simpudi";
 try {
     $dsn = "mysql:host=$host;dbname=$database;charset=utf8mb4";
     $options = [

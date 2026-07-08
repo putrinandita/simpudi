@@ -99,7 +99,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['submit_edit_tx'])) {
 <html lang="id">
 <head>
     <meta charset="UTF-8">
-    <title>Edit Transaksi Penyaluran - SIMPUD Desa</title>
+    <title>Edit Transaksi Penyaluran - SIMPUDI Desa</title>
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body class="bg-slate-50 min-h-screen text-slate-800 flex flex-col justify-between">

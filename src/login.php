@@ -65,8 +65,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     <div class="bg-white p-8 rounded-2xl shadow-lg w-full max-w-md border border-slate-100">
         <div class="text-center mb-8">
             <div class="bg-green-100 text-green-700 w-16 h-16 rounded-2xl flex items-center justify-center mx-auto mb-4 text-2xl font-bold">🌾</div>
-            <h1 class="text-2xl font-bold text-slate-800 tracking-tight">SIMPUD DESA</h1>
-            <p class="text-sm text-slate-500 mt-1">Sistem Manajemen Pupuk Subsidi Desa</p>
+            <h1 class="text-2xl font-bold text-slate-800 tracking-tight">SIMPUDI DESA</h1>
+            <p class="text-sm text-slate-500 mt-1">Sistem Informasi Manajemen Pupuk Subsidi Desa</p>
         </div>
 
         <?php if (!empty($error)): ?>
