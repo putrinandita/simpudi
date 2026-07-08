@@ -69,7 +69,7 @@ $log_masuk = $stmtLog->fetchAll();
                 <span class="text-3xl">🌾</span>
                 <div>
                     <h1 class="text-xl font-bold text-slate-900">SIMPUDI DESA</h1>
-                    <p class="text-xs text-slate-400 font-medium">Sistem InformasiManajemen Pupuk Subsidi Desa</p>
+                    <p class="text-xs text-slate-400 font-medium">Sistem Informasi Manajemen Pupuk Subsidi Desa</p>
                 </div>
             </div>
             <a href="dashboard.php" class="bg-slate-100 hover:bg-slate-200 text-slate-700 text-sm font-semibold px-4 py-2 rounded-xl transition">Kembali ke Dasbor 🏠</a>

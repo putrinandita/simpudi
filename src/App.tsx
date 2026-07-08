@@ -755,7 +755,7 @@ export default function App() {
           <div className="text-center mb-8">
             <div className="bg-green-100 text-green-700 w-16 h-16 rounded-2xl flex items-center justify-center mx-auto mb-4 text-2xl font-bold">🌾</div>
             <h1 className="text-2xl font-bold text-slate-900 tracking-tight" id="login_title">SIMPUDI DESA</h1>
-            <p className="text-sm text-slate-500 mt-1">Sistem InformasiManajemen Pupuk Subsidi Desa</p>
+            <p className="text-sm text-slate-500 mt-1">Sistem Informasi Manajemen Pupuk Subsidi Desa</p>
           </div>
 
           {loginError && (
@@ -849,7 +849,7 @@ export default function App() {
             <div className="bg-green-600 text-white p-2.5 rounded-xl text-xl shadow-md">🌾</div>
             <div>
               <h1 className="text-xl font-black tracking-tight text-slate-900">SIMPUDI DESA</h1>
-              <p className="text-xs text-slate-400 font-bold tracking-wider uppercase">Sistem InformasiManajemen Pupuk Subsidi</p>
+              <p className="text-xs text-slate-400 font-bold tracking-wider uppercase">Sistem Informasi Manajemen Pupuk Subsidi</p>
             </div>
           </div>
           

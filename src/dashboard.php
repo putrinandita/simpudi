@@ -40,7 +40,7 @@ if ($search !== '') {
 <html lang="id">
 <head>
     <meta charset="UTF-8">
-    <title>Dasbor SIMPUDI - Sistem Manajemen Pupuk Desa</title>
+    <title>Dasbor SIMPUDI - Sistem Informasi Manajemen Pupuk Desa</title>
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body class="bg-slate-50 min-h-screen text-slate-800">
